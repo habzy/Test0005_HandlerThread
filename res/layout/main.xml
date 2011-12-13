@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Handler Thread Test...." />
+
+	<TextView android:id="@+id/Result" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Results:" />
+
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:id="@+id/buttonsLayout"
+		android:paddingBottom="20px" android:layout_alignParentBottom="true">
+		<Button android:id="@+id/add" android:layout_height="wrap_content"
+			android:layout_marginLeft="5px" android:text="add"
+			android:layout_width="wrap_content"></Button>
+		<Button android:id="@+id/reduce" android:layout_height="wrap_content"
+			android:layout_marginLeft="5px" android:text="reduce"
+			android:layout_width="wrap_content"></Button>
+		<Button android:id="@+id/multiply" android:layout_height="wrap_content"
+			android:layout_marginLeft="5px" android:text="multiply"
+			android:layout_width="wrap_content"></Button>
+		<Button android:id="@+id/divide" android:layout_height="wrap_content"
+			android:layout_marginLeft="5px" android:text="divide"
+			android:layout_width="wrap_content"></Button>
+	</LinearLayout>
+</LinearLayout>
